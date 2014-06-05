@@ -1,0 +1,28 @@
+{
+  "name": "grunt-parallel-mocha",
+  "description": "Run mocha tests in parallel on spec level",
+  "author": {
+    "name": "Vance Ingalls"
+  },
+  "dependencies": {
+    "mocha": "~1.20.1",
+    "domain": "~0.2.8",
+    "coffee-script": "~1.7.1",
+    "wrench": "~1.5.8"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-internal": "~0.4.6",
+    "grunt": "~0.4.0",
+    "grunt-cli": "~0.1.13"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "mocha",
+    "saucelabs"
+  ]
+}
